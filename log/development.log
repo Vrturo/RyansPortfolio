@@ -2108,3 +2108,315 @@ ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.ma
   Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
   Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
   Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (74.3ms)
+
+
+Started GET "/" for ::1 at 2016-04-14 16:31:59 -0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 257ms (Views: 227.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.min.self-e127587cd03095ba996ce6618c5249f923fcb34e6c7617957a1dd45668cdfe43.css?body=1" for ::1 at 2016-04-14 16:32:00 -0700
+
+
+Started GET "/assets/bootstrap.min.self-be6a645f213f356601ff235da5760f5080076f6168dec3d19d33587edbf75b95.css?body=1" for ::1 at 2016-04-14 16:32:00 -0700
+
+
+Started GET "/assets/photo-style.self-c9428c57febc88600c4d40c85655dbbbcf3eab272cbacbd42bd5d4e0b2523566.css?body=1" for ::1 at 2016-04-14 16:32:00 -0700
+
+
+Started GET "/assets/font-awesome.self-52d25c1ddb983eff1d42436478f22f8ceebd47caa6e762cd2e79684dd7e43df4.css?body=1" for ::1 at 2016-04-14 16:32:00 -0700
+
+
+Started GET "/assets/et-icons.self-3ebdb0e2e5fcd3647ab7af28300ece6deb0030f56fca3d4f0b6e6094609d55bb.css?body=1" for ::1 at 2016-04-14 16:32:00 -0700
+
+
+Started GET "/assets/slider/extralayers.self-11bf301aa609bcd4aea26ec603caf0b394303cbf20fca2266d5507a8e5c2d226.css?body=1" for ::1 at 2016-04-14 16:32:00 -0700
+
+
+Started GET "/assets/slider/settings.self-33163e9fb221bdcf3b4fc3b63c883056ca12b8a59316a1425d37df511b8151ea.css?body=1" for ::1 at 2016-04-14 16:32:00 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-14 16:32:00 -0700
+
+
+Started GET "/assets/style.self-b3583779eed21887777239229001347e963e8a00f2e27c2da61c3275a1590f0f.css?body=1" for ::1 at 2016-04-14 16:32:00 -0700
+
+
+Started GET "/assets/slider_folder.self-0a3393de280b9bf28020c00fc7916bf87ed588a39b51a255a741ad2de12072b6.css?body=1" for ::1 at 2016-04-14 16:32:00 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 16:32:01 -0700
+
+
+Started GET "/assets/jquery.self-8dde21c90764bbc3e69615406d3e5ac53f519bd18b00f8d91a871875a804bcc8.js?body=1" for ::1 at 2016-04-14 16:32:01 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 16:32:01 -0700
+
+
+Started GET "/assets/bootstrap.min.self-f2d64b74536a49f843b022431e37325973468a71c9b362343deb0b6c582e5ba0.js?body=1" for ::1 at 2016-04-14 16:32:01 -0700
+
+
+Started GET "/assets/home-scripts.self-c78adaa1f4ad6ca9a3fe2310e0630331366b41b7f7de43eb7bad9ad30fa70e9a.js?body=1" for ::1 at 2016-04-14 16:32:01 -0700
+
+
+Started GET "/assets/jquery.stellar.self-1f9ffdb18ba78d5775a4faf4b180ca68e36b45ecbce1490b218cbaa6395463db.js?body=1" for ::1 at 2016-04-14 16:32:01 -0700
+
+
+Started GET "/assets/portfolio_01.self-55d9e682e54f027ab9991e82546d0dd0fe89f6bb2192b04f45452978bc8f0845.js?body=1" for ::1 at 2016-04-14 16:32:01 -0700
+
+
+Started GET "/assets/slider/jquery.themepunch.revolution.min.self-38754d3968ad3286e14c557ee63801fe2f00156f773556cc3d0f7a61e55696d4.js?body=1" for ::1 at 2016-04-14 16:32:01 -0700
+
+
+Started GET "/assets/jquery.isotope.min.self-850756dbda75ac939b18c36df3e9a37f841f2896d9730d591cb55a08e6225b5d.js?body=1" for ::1 at 2016-04-14 16:32:01 -0700
+
+
+Started GET "/assets/retina.self-876267fddd2699a86b9ca05240861f63324e5c398b245844c8d1b28c77d6aee0.js?body=1" for ::1 at 2016-04-14 16:32:01 -0700
+
+
+Started GET "/assets/slider/jquery.themepunch.tools.min.self-0773b61ec12a597e27143dc6e3b4fb7fdb054c0708629921be78224ffc0e5878.js?body=1" for ::1 at 2016-04-14 16:32:01 -0700
+
+
+Started GET "/assets/slider_folder.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-04-14 16:32:01 -0700
+
+
+Started GET "/assets/text-rotate.self-998a9e7bbd23ba49a537afb34026cbb26da560217591e55e04c96259c3f8466d.js?body=1" for ::1 at 2016-04-14 16:32:01 -0700
+
+
+Started GET "/assets/wow.min.self-d1cc6f3101ba20c020168249fe18112513d822101a71d904a3480288d51b096a.js?body=1" for ::1 at 2016-04-14 16:32:01 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-14 16:32:01 -0700
+
+
+Started GET "/" for ::1 at 2016-04-14 16:32:01 -0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 45ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2016-04-14 16:32:01 -0700
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.7ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (51.3ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (36.3ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (68.9ms)
+
+
+Started GET "/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2016-04-14 16:32:01 -0700
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.ttf"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.5ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (22.0ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (41.7ms)
+
+
+Started GET "/" for ::1 at 2016-04-14 16:32:26 -0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 498ms (Views: 490.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-be6a645f213f356601ff235da5760f5080076f6168dec3d19d33587edbf75b95.css?body=1" for ::1 at 2016-04-14 16:32:27 -0700
+
+
+Started GET "/assets/animate.min.self-e127587cd03095ba996ce6618c5249f923fcb34e6c7617957a1dd45668cdfe43.css?body=1" for ::1 at 2016-04-14 16:32:27 -0700
+
+
+Started GET "/assets/photo-style.self-c9428c57febc88600c4d40c85655dbbbcf3eab272cbacbd42bd5d4e0b2523566.css?body=1" for ::1 at 2016-04-14 16:32:27 -0700
+
+
+Started GET "/assets/et-icons.self-3ebdb0e2e5fcd3647ab7af28300ece6deb0030f56fca3d4f0b6e6094609d55bb.css?body=1" for ::1 at 2016-04-14 16:32:27 -0700
+
+
+Started GET "/assets/slider/extralayers.self-11bf301aa609bcd4aea26ec603caf0b394303cbf20fca2266d5507a8e5c2d226.css?body=1" for ::1 at 2016-04-14 16:32:27 -0700
+
+
+Started GET "/assets/slider/settings.self-33163e9fb221bdcf3b4fc3b63c883056ca12b8a59316a1425d37df511b8151ea.css?body=1" for ::1 at 2016-04-14 16:32:27 -0700
+
+
+Started GET "/assets/font-awesome.self-52d25c1ddb983eff1d42436478f22f8ceebd47caa6e762cd2e79684dd7e43df4.css?body=1" for ::1 at 2016-04-14 16:32:28 -0700
+
+
+Started GET "/assets/style.self-b3583779eed21887777239229001347e963e8a00f2e27c2da61c3275a1590f0f.css?body=1" for ::1 at 2016-04-14 16:32:28 -0700
+
+
+Started GET "/assets/slider_folder.self-0a3393de280b9bf28020c00fc7916bf87ed588a39b51a255a741ad2de12072b6.css?body=1" for ::1 at 2016-04-14 16:32:28 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-14 16:32:28 -0700
+
+
+Started GET "/assets/jquery.self-8dde21c90764bbc3e69615406d3e5ac53f519bd18b00f8d91a871875a804bcc8.js?body=1" for ::1 at 2016-04-14 16:32:28 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 16:32:28 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 16:32:28 -0700
+
+
+Started GET "/assets/bootstrap.min.self-f2d64b74536a49f843b022431e37325973468a71c9b362343deb0b6c582e5ba0.js?body=1" for ::1 at 2016-04-14 16:32:28 -0700
+
+
+Started GET "/assets/home-scripts.self-c78adaa1f4ad6ca9a3fe2310e0630331366b41b7f7de43eb7bad9ad30fa70e9a.js?body=1" for ::1 at 2016-04-14 16:32:28 -0700
+
+
+Started GET "/assets/jquery.isotope.min.self-850756dbda75ac939b18c36df3e9a37f841f2896d9730d591cb55a08e6225b5d.js?body=1" for ::1 at 2016-04-14 16:32:28 -0700
+
+
+Started GET "/assets/jquery.stellar.self-1f9ffdb18ba78d5775a4faf4b180ca68e36b45ecbce1490b218cbaa6395463db.js?body=1" for ::1 at 2016-04-14 16:32:28 -0700
+
+
+Started GET "/assets/portfolio_01.self-55d9e682e54f027ab9991e82546d0dd0fe89f6bb2192b04f45452978bc8f0845.js?body=1" for ::1 at 2016-04-14 16:32:28 -0700
+
+
+Started GET "/assets/retina.self-876267fddd2699a86b9ca05240861f63324e5c398b245844c8d1b28c77d6aee0.js?body=1" for ::1 at 2016-04-14 16:32:28 -0700
+
+
+Started GET "/assets/slider/jquery.themepunch.revolution.min.self-38754d3968ad3286e14c557ee63801fe2f00156f773556cc3d0f7a61e55696d4.js?body=1" for ::1 at 2016-04-14 16:32:28 -0700
+
+
+Started GET "/assets/slider_folder.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-04-14 16:32:28 -0700
+
+
+Started GET "/assets/text-rotate.self-998a9e7bbd23ba49a537afb34026cbb26da560217591e55e04c96259c3f8466d.js?body=1" for ::1 at 2016-04-14 16:32:28 -0700
+
+
+Started GET "/assets/slider/jquery.themepunch.tools.min.self-0773b61ec12a597e27143dc6e3b4fb7fdb054c0708629921be78224ffc0e5878.js?body=1" for ::1 at 2016-04-14 16:32:28 -0700
+
+
+Started GET "/assets/wow.min.self-d1cc6f3101ba20c020168249fe18112513d822101a71d904a3480288d51b096a.js?body=1" for ::1 at 2016-04-14 16:32:28 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-14 16:32:28 -0700
+
+
+Started GET "/" for ::1 at 2016-04-14 16:32:28 -0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css.map" for ::1 at 2016-04-14 17:13:36 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.3ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.5ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (21.4ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (99.2ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (340.9ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/Art/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (384.3ms)
