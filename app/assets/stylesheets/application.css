@@ -12,12 +12,12 @@
  *
  *= require_self
  *= require slider_folder
- *= require bootfolio
+ *= require bootFolio
  *= require prettyPhoto
- *= require animate
+ *= require animate.min
  *= require font-awesome
  *= require et-icons
- *= require bootstrap
+ *= require bootstrap.min
  *= require style
- *= require photo-style
+ *= require p-style
  */
