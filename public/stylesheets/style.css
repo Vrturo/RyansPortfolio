@@ -3310,6 +3310,21 @@ blockquote.mini {
 .section-parallax p {
     color:#7b7b7b;
 }
+.skills-parallax{
+    background-position: center 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    vertical-align: sub;
+    color: #fff;
+    background:rgba(255,255,255, 0);
+    padding:20px 0;
+    z-index: 10;
+}
+
 .section-parallax {
     background-position: center 0%;
     -moz-background-size: cover !important;
@@ -3332,7 +3347,7 @@ blockquote.mini {
 }
 
 #skills-parallax {
-    background-image:url(../imgs/mac_workspace2.jpg);
+  background-image:url(../imgs/mac_workspace2.jpg);
 }
 
 #parallax-medical {
@@ -3379,7 +3394,7 @@ blockquote.mini {
 .parallax-content h1,
 .parallax-content p,
 #parallax-six h3,
-#skills-parallax h3 {
+#skills-parallax h3{
     color:#fff;
 }
 
